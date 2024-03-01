@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway2;
+  src: url(../rishiona-regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: beige;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: indianred;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-logo {
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: Raleway, cursive;
+}
+
+.navbar a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.header::before {
+  content: '.';
+  position: absolute;
+  width: 100%;
+  background: black;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+}
