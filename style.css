@@ -77,5 +77,28 @@ body {
 }
 
 .panier {
-  margin-top: 70px;
+  margin-top: 20px;
+  border-radius: 20px 20px 20px 20px;
+  width: 150px;
+  background-color: white;
+  height: 35px;
+}
+
+.panier:hover {
+  background-color: lightgray;
+}
+
+.image {
+  width: 350px;
+  height: 230px;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+
+.price {
+  display: inline;
+}
+
+.texte {
+  padding-left: 30px;
 }
