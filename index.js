@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   main();
-  // const divElements = document.querySelectorAll('.article');
-  // divElements.forEach(function(divElement) {
-  //   divElement.addEventListener('click', function() {
-  //     const destination = divElement.getAttribute('dest');
-  //     if (destination) {
-  //       window.location.href = destination;
-  //     }
-  //   });
-  // });
+  const divElements = document.querySelectorAll('.article');
+  divElements.forEach(function(divElement) {
+    divElement.addEventListener('click', function() {
+      const destination = divElement.getAttribute('dest');
+      if (destination) {
+        window.location.href = destination;
+      }
+    });
+  });
 });
 async function main() {
   try {
